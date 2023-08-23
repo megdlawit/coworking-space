@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&display=swap');
+
+header {
+  background-color: #fff;
+  height: 10vh;
+  box-shadow: 0 5px 30px rgb(0 22 84 / 10%);
+  padding: 15px 0;
+  position: sticky;
+  top: 0;
+  z-index: 99999;
+}
+header img {
+  width: 170px;
+}
+header a {
+  margin-left: 30px;
+  transition: 0.5s;
+  font-weight: 500;
+  font-family: 'Bricolage Grotesque', sans-serif ;
+}
+header a:hover {
+  color: hsl(14, 90%, 53%);
+   &:hover{
+        color: hsl(14, 90%, 53%);
+        border-bottom: 1.5px solid hsl(14, 90%, 53%);
+        
+       
+    }
+}
+header span {
+  width: auto;
+  padding: 0px 6px;
+  background: hsl(14, 90%, 53%);
+  border-radius: 50px;
+  color: #ffffff;
+  margin-right: 4px;
+  font-weight: 400;
+  font-family: 'Bricolage Grotesque', sans-serif ;
+}
+header h4 {
+  font-weight: 500;
+  margin-right: 50px;
+  font-family: 'Bricolage Grotesque', sans-serif ;
+}
+header .toggle {
+  display: none;
+}
+.icon{
+    height: 35px;
+    width: 35px;
+    color: hsl(14, 90%, 53%);
+}
+.icon1{
+  height: 30px;
+  width: 30px;
+  color: hsl(14, 90%, 53%);
+}
+@media screen and (max-width: 768px) {
+  header {
+    padding: 0;
+    
+  }
+  header img {
+    margin-top: 30px;
+  }
+  header .button {
+    display: none;
+  }
+  header .nav .flex {
+    display: none;
+  }
+  header .toggle {
+    display: block;
+    margin-top: 20px;
+  }
+  header .small {
+    position: absolute;
+    top: 10vh;
+    left: 0;
+    width: 100%;
+    background-color: hsl(14, 90%, 53%);
+    padding: 20px;
+
+  }
+  header li a {
+    display: inline-block;
+    margin-bottom: 20px;
+    color: #0000;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: 'Bricolage Grotesque', sans-serif ;
+    padding: 1rem 0;
+    text-align: center;
+    cursor: pointer; 
+    &:hover{
+        color: hsl(14, 90%, 53%);
+        border-bottom: 1.5px solid hsl(14, 90%, 53%);
+     
+    }
+  }
+}

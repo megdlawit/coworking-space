@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@10..48,500&display=swap');
+.hero {
+  background-image: url("../../../../public/images/banner.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 90vh;
+  width: 100%;
+  font-family: 'Bricolage Grotesque', sans-serif ;
+}
+.hero .container {
+  padding-top: 15%;
+}
+.hero h1 {
+  color:  hsl(14, 90%, 53%);
+  font-size: 60px;
+  
+}
+.hero p {
+  color: hsl(14, 90%, 53%);
+  opacity: 0.8;
+}
+form {
+  background-color:  rgb(70, 68, 68);
+  border-radius: 5px;
+  margin-top: 40px;
+  padding: 0 20px;
+}
+.head{
+  margin-top: 3000px;
+}
+form input {
+  padding: 10px;
+  width: 100%;
+  border: 0.005px solid hsl(14, 90%, 53%);
+  margin-top: 5px;
+  border-radius: 5px;
+}
+form span {
+  font-size: 14px;
+  color: #fff;
+}
+input::placeholder {
+  font-size: 17px;
+  color: #fff;
+  font-family: 'Bricolage Grotesque', sans-serif ;
+}
+form .box {
+  padding: 20px;
+  border-left: 1px solid rgba(128, 128, 128, 0.2);
+}
+form .box:nth-child(1) {
+  border-left: none;
+}
+form h4 {
+  font-weight: 500;
+}
+@media screen and (max-width: 800px) {
+  .hero .container {
+    padding-top: 30%;
+  }
+  form {
+    display: flex;
+    flex-wrap: wrap;
+  }
+  form .box {
+    border-left: none;
+  }
+  form input {
+    width: 100%;
+  }
+}
+
+.btn1{
+  background-color:hsl(14, 90%, 53%);
+
+}
+h2{
+  margin-top: 30px;
+  color:hsl(14, 90%, 53%);
+  font-family: 'Bricolage Grotesque', sans-serif ;
+  font-size: 60px;
+  text-align:center;
+}
