@@ -10,7 +10,6 @@ const Contact = () => {
         <Back name='Contact Us' title='Get Helps & Friendly Support' cover={img} />
         <div className='container'>
           <form className='shadow'>
-            <h4>Fillup The Form</h4> <br />
             <div>
               <input type='text' placeholder='Name' />
               <input type='text' placeholder='Email' />

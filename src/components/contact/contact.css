@@ -1,8 +1,10 @@
 .contact form div {
   display: flex;
+  
+
 }
 .contact textarea {
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid hsl(14, 90%, 53%);
   width: 100%;
   border-radius: 5px;
   margin-bottom: 20px;
@@ -21,6 +23,7 @@
   }
   .contact form div {
     flex-direction: column;
+    
   }
   .contact input {
     width: 100%;
